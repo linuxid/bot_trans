@@ -2,7 +2,7 @@ import telebot
 import translators as ts
 
 #translator= Translator(to_lang="uk", from_lang="autodetect")
-bot = telebot.TeleBot("5336297615:AAGJ_eFLbMxYgpIQpbFIlrbKNWnODInjBGA")
+bot = telebot.TeleBot("###")
 
 @bot.message_handler(content_types=['text'])
 def send_echo(message):
